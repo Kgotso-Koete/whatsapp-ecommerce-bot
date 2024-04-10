@@ -6,7 +6,7 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "node app.js",
-        "devstart": "nodemon app.js",
+        "dev": "nodemon app.js",
         "prettier": "prettier --ignore-path .prettierignore --config prettier.config.js --write .",
         "quickpush": "cls && git status && git add * && git commit * -m \"Updated Code\" && git push"
     },
@@ -17,7 +17,7 @@
         "express": "^4.18.1",
         "pdfkit": "^0.13.0",
         "request": "^2.88.2",
-        "whatsappcloudapi_wrapper": "^1.0.11"
+        "whatsappcloudapi_wrapper": "^1.0.14"
     },
     "devDependencies": {
         "nodemon": "^2.0.16"
