@@ -115,3 +115,6 @@ package-lock.json
 
 .roughwork.txt
 *.pdf
+
+# But don't ignore this specific PDF
+!Tutorial by Daggie Douglas Mwangi.pdf
