@@ -322,6 +322,7 @@ router.post('/meta_wa_callbackurl', async (req, res) => {
                         recipientPhone,
                         caption: `Mom-N-Pop Shop invoice #${recipientName}`,
                         file_path: `./invoice_${recipientName}.pdf`,
+                        mime_type: 'application/pdf',
                     });
 
                     // Send the location of our pickup station to the customer, so they can come and pick their order
