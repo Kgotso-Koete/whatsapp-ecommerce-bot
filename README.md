@@ -92,6 +92,12 @@ This implementation is based entirely on Daggie Douglas Mwangi's tutorial. All c
     nodemon app.js
     ```
 
+    or you can run
+
+    ```bash
+    nvm use 14.17.5 && npm run dev
+    ```
+
 2. **Expose via ngrok** (new terminal)
 
     ```bash
