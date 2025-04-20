@@ -41,6 +41,7 @@ router.post('/meta_wa_callbackurl', async (req, res) => {
     console.log('POST: Someone is pinging me!');
     try {
         let data = Whatsapp.parseMessage(req.body);
+        console.log(data);
 
         if (data?.isMessage) {
             let incomingMessage = data.message;
@@ -170,24 +171,24 @@ router.post('/meta_wa_callbackurl', async (req, res) => {
                         contact_profile: {
                             addresses: [
                                 {
-                                    city: 'Nairobi',
-                                    country: 'Kenya',
+                                    city: 'Johannesburg',
+                                    country: 'South Africa',
                                 },
                             ],
                             name: {
-                                first_name: 'Daggie',
-                                last_name: 'Blanqx',
+                                first_name: 'Martie',
+                                last_name: 'Visser',
                             },
                             org: {
-                                company: 'Mom-N-Pop Shop',
+                                company: 'Tasker247',
                             },
                             phones: [
                                 {
-                                    phone: '+1 (555) 025-3483',
+                                    phone: '+27 73 409 9565',
                                 },
-                                {
-                                    phone: '+254 712345678',
-                                },
+                                //{
+                                //    phone: '+254 712345678',
+                                //},
                             ],
                         },
                     });
