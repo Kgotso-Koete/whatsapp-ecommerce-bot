@@ -89,7 +89,13 @@ This implementation is based entirely on Daggie Douglas Mwangi's tutorial. All c
 1. **Start Server**
 
     ```bash
-    nodemon app.js
+    npm run dev
+    ```
+
+    or
+
+    ```bash
+    npm start
     ```
 
     or you can run
